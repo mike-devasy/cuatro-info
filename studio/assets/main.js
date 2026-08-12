@@ -40,6 +40,8 @@
   menuToggle?.setAttribute('aria-label', 'Abrir menú');
   menu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
   addEventListener('keydown', (event) => event.key === 'Escape' && closeMenu());
+  const desktopHeader = matchMedia('(min-width: 1401px)');
+  desktopHeader.addEventListener('change', (event) => event.matches && closeMenu());
   const page = location.pathname.split('/').pop() || 'index.html';
   const approachLink = menu?.querySelector('a[href="process.html"]');
   if (approachLink) approachLink.textContent = 'Nuestro enfoque';

@@ -256,7 +256,7 @@
   themeToggle?.before(languageSwitch);
 
   const titles = {
-    'index.html': 'CuatroSupport — Reliable Customer Operations',
+    'index.html': 'Cuatro Support — B2B Support Solutions',
     'about.html': 'Company — CuatroSupport',
     'services.html': 'Services — CuatroSupport',
     'portfolio.html': 'Solutions — CuatroSupport',

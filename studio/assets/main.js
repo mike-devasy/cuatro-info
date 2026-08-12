@@ -114,7 +114,7 @@
   languageSwitch.setAttribute('role', 'group');
   languageSwitch.innerHTML = '<button type="button" data-language="es">ES</button><button type="button" data-language="en">EN</button>';
   themeToggle?.before(languageSwitch);
-  const titles = { 'index.html': 'CuatroStudio — Independent Creative Studio', 'about.html': 'About — CuatroStudio', 'services.html': 'Services — CuatroStudio', 'portfolio.html': 'Work — CuatroStudio', 'process.html': 'Our Approach — CuatroStudio', 'contact.html': 'Contact — CuatroStudio', 'privacy-policy.html': 'Privacy Policy — CuatroStudio', 'terms-of-use.html': 'Terms of Use — CuatroStudio', 'documents.html': 'Documents — CuatroStudio' };
+  const titles = { 'index.html': 'CuatroStudio — Creative Brand Studio', 'about.html': 'About — CuatroStudio', 'services.html': 'Services — CuatroStudio', 'portfolio.html': 'Work — CuatroStudio', 'process.html': 'Our Approach — CuatroStudio', 'contact.html': 'Contact — CuatroStudio', 'privacy-policy.html': 'Privacy Policy — CuatroStudio', 'terms-of-use.html': 'Terms of Use — CuatroStudio', 'documents.html': 'Documents — CuatroStudio' };
   const spanishTitle = document.title;
   const syncLanguageControls = (language) => {
     const english = language === 'en';

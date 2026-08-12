@@ -337,7 +337,7 @@
   languageSwitch.innerHTML = '<button type="button" data-language="es">ES</button><button type="button" data-language="en">EN</button>';
   themeButton?.before(languageSwitch);
 
-  const titles = { 'index.html': 'CuatroGrowth — Digital Growth Consultancy', 'about.html': 'About — CuatroGrowth', 'services.html': 'Services — CuatroGrowth', 'portfolio.html': 'Our Expertise — CuatroGrowth', 'process.html': 'How We Work — CuatroGrowth', 'contact.html': 'Contact — CuatroGrowth', 'privacy-policy.html': 'Privacy Policy — CuatroGrowth', 'terms-of-use.html': 'Terms of Use — CuatroGrowth' };
+  const titles = { 'index.html': 'Cuatro Growth — Digital Agency', 'about.html': 'About — CuatroGrowth', 'services.html': 'Services — CuatroGrowth', 'portfolio.html': 'Our Expertise — CuatroGrowth', 'process.html': 'How We Work — CuatroGrowth', 'contact.html': 'Contact — CuatroGrowth', 'privacy-policy.html': 'Privacy Policy — CuatroGrowth', 'terms-of-use.html': 'Terms of Use — CuatroGrowth' };
   const syncLanguageControls = (language) => {
     const english = language === 'en';
     languageSwitch.setAttribute('aria-label', english ? 'Select language' : 'Seleccionar idioma');
